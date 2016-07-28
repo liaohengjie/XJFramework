@@ -1,0 +1,6 @@
+framework module CTFramework {
+  umbrella header "CTFramework.h"
+
+  export *
+  module * { export * }
+}
