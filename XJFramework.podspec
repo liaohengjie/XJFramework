@@ -11,7 +11,7 @@ This description is used to generate tags and improve search results.
   s.author             = { "廖幸杰" => "584566770@qq.com" }
    s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/liaohengjie/XJFramework.git", :tag => "#{s.version}" }
-    #s.source_files  = "Classes", "Classes/**/*.{h,m}"
+    s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.public_header_files = "Classes/**/*.h"
    s.requires_arc = true
 #s.ios.vendored_frameworks = 'CTFramework.framework'
