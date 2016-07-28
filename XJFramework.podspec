@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "XJFramework"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A sdfsd  description of XJFramework."
     s.description  = <<-DESC
 This description is used to generate tags and improve search results.
@@ -15,5 +15,7 @@ This description is used to generate tags and improve search results.
   # s.public_header_files = "Classes/**/*.h"
    s.requires_arc = true
     s.vendored_frameworks = 'XJ/CTFramework.framework'
+
+    s.resources           = 'XJ/CTPod.bundle'
 
 end
